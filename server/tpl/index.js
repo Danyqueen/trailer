@@ -1,6 +1,8 @@
 // 用于管理所有的模板文件
-const normalTpl = require('./normal')
+const htmlTpl = require('./html')
+const ejsTpl = require('./ejs')
 
 module.exports = {
-  normal: normalTpl
+  htmlTpl: htmlTpl,
+  ejsTpl: ejsTpl
 }
